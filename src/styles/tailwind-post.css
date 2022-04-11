@@ -1,0 +1,6 @@
+@tailwind utilities;
+
+svg {
+  /* Required to overcome misalignment in Ant Design components caused by Tailwind base */
+  vertical-align: baseline;
+}
